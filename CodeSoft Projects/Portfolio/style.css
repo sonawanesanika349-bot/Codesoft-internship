@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+/* Sections */
+section {
+  padding: 2rem 5%;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.about-container img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.about-container p {
+  max-width: 600px;
+  text-align: justify;
+}
+
+/* Skills */
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+#skills li {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Projects */
+#projects .project {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+#projects img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* Resume Button */
+.btn {
+  display: inline-block;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #1abc9c;
+}
+
+/* Contact Section */
+#contact p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
